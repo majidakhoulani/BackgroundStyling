@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url('photo_٢٠٢٢-٠٩-١٥_٠٠-٣٨-٣٩.jpg');
+    background-repeat: none;
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container{
+    padding: 5px;
+    width: 700px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+header{
+    padding-top:5px;
+    color: white;
+}
+header .heading{
+padding-bottom: 12px;
+}
+header .head_text1{
+    padding-bottom: 12px;
+    font-weight: bold;
+    }
+header .head_text2{
+    color: #9e9e9e;
+    padding-bottom: 6px;
+}
+.section1{
+    margin-top: 12px;
+    border: 1px dashed black;
+    background-color: white;
+    padding-bottom: 10px;
+}
+.section1 .sec1_heading{
+    padding: 8px 0px 10px 8px;
+    color: black;
+}
+.section1 .sec1_text{
+    padding: 0px 0px 10px 27px;
+    color: rgb(112, 107, 107);
+    /* font-weight: bold; */
+    font-size: 16px;
+}
+.section1 .sec1_code{
+    padding: 0px 0px 10px 30px;
+    color:#8cc3ee;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+.section1 span{
+    padding: 10px;
+    color: rgb(112, 107, 107);
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 18px;
+}
+.section1 #note{
+margin-top: 10px;
+margin-bottom: 15px;
+}
+.content div:nth-child(4) code{
+    display: block;
+}
+footer .foot_heading{
+    color: white;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+footer .foot_text{
+ color: #9e9e9e;
+}
+

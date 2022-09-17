@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Styling</title>
+    <link rel="stylesheet" href="backround_style.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <h1 class="heading">Backgroung Image, let's GO!</h1>
+        <p class="head_text1">Properties</p>
+        <small class="head_text2">There are afew different backround prperties:</small>
+    </header>
+    <div class="content">
+        <div class="section1">
+            <h3 class="sec1_heading">background-image</h3>
+            <p class="sec1_text">This property is the location of the image itself,for example</p>
+            <code class="sec1_code">
+                h1 {
+                    backround-image:url('http/mywebsite.com/img/background.jpg');
+                }
+            </code>
+                <br>
+                <span>or</span>
+                <br>
+                <code class="sec1_code">
+                    h1 {
+                        backround-image:url('images/background.jpg');
+                    }
+                </code>
+        </div>
+        <div class="section1">
+            <h3 class="sec1_heading">background-color</h3>
+            <p class="sec1_text">This allows us to add color to background, An example in css would like this:</p>
+            <code class="sec1_code">
+                h1 {
+                    backround-color:green;
+                }
+            </code>
+        </div>
+        <div class="section1">
+            <h3 class="sec1_heading">background-repeat</h3>
+            <p class="sec1_text">This is how the image will repeat.The value can be any of the following</p>
+            <code class="sec1_code">
+                background-repeat: repeat;
+            </code>
+            <p class="sec1_text" id="note">This repeate on bot X and Y axis, and will essentially title the image across the entire bacground</p>
+            <code class="sec1_code">
+                background-repeat: repeat-x;
+            </code>
+            <p class="sec1_text" id="note">This repeats the background on the X axis ,or horizontally</p>
+            <code class="sec1_code">
+                background-repeat: repeat-y;
+            </code>
+            <p class="sec1_text" id="note">This repeats the background on the Y axis ,or vertocally</p>
+            <code class="sec1_code">
+                background-repeat: no-repeat;
+            </code>
+            <p class="sec1_text" id="note">This shows image only once ,without repeating</p>
+        </div>
+        <div class="section1">
+            <h3 class="sec1_heading">background-position</h3>
+            <p class="sec1_text">This is actual position of the background image within it's container, The value can be:</p>
+            
+            <code class="sec1_code">
+                background-position:top;
+            </code>
+            <code class="sec1_code">
+                background-position: right;
+            </code>
+            <code class="sec1_code">
+                background-position: bottom;
+            </code>
+            <code class="sec1_code">
+                background-position: left;
+            </code>
+            <code class="sec1_code">
+                background-position: center;
+            </code>
+            <p class="sec1_text">it can also be a percentage ,lenght,or combination ,like so</p>
+            <code class="sec1_code">
+                background-position: 50px 20%;
+            </code>
+        </div>
+        <footer>
+            <h4 class="foot_heading">Shorthand!</h4>
+            <small class="foot_text">There is a quick way around background images, and you don't necessary have to type out all of the above code to set up your backdround images the way you want them</small>
+            <div class="section1">
+                <h3 class="sec1_heading">background</h3>
+                <p class="sec1_text">The 'background' Shorthand can handle them in one!</p>
+                <code class="sec1_code">
+                        backround: green url('images/background.jpg') top left no-repeat;
+                </code>
+            </div>
+        </footer>
+    </div>
+</div>
+</body>
+</html>
